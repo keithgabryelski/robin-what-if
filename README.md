@@ -1,6 +1,8 @@
 # robin-what-if
 What if a certain number of people want to robin grow to a certain tier
 
+A simulation to understand the time it takes to grow a reddit robin room given a certain number of participants who are willing game the system (without the use of alts) the gaming is recycling users ASAP (have N/2-1 members drop from a room and create new rooms) my analysis shows that 1024 people can grow a tier 14 room in 12 hours 2048 people can grow a tier 14 room in 8 hours
+
 ```ruby
 laptop$ ruby ./robin-what-if.rb 
 after: days: 0, hours 12, minutes: 2, top_tier: 14
